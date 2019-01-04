@@ -1,0 +1,36 @@
+@charset 'utf-8';
+
+.container{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drag-and-drop{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: move;
+}
+
+.red-box{
+    background-color: tomato;
+    /*left: 0;*/
+}
+
+.yellow-box{
+    background-color: yellow;
+    /*left: 110px;*/
+}
+
+.blue-box{
+    background-color: skyblue;
+    /*left: 220px;*/
+}
+
+.drag{
+    z-index: 10;
+}
